@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  background-image: url("C:\Users\Pranati\OneDrive\Documents\frontend\Reactjs\weather\src\assets\Images\Background.jpg");
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(10px);
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-button {
+  margin: 4px;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.weather-main {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.location{
+  font-size: 34px;
+}
+
+.temperature {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.info-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.info {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+  flex: 1 1 200px;
+}
+
+.label {
+  font-size: 14px;
+}
+
+.value {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.forecast {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.hourly-forecast,
+.ten-day-forecast {
+  flex: 1 1 300px;
+  margin: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hourly,
+.day {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.hour,
+.day {
+  flex: 1;
+  text-align: center;
+}
+
+.temp {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.icon {
+  font-size: 18px;
+}
+
+.additional-info {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.uv-index,
+.wind {
+  flex: 1 1 200px;
+  margin: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
